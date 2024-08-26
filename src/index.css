@@ -1,0 +1,44 @@
+body {
+    background-image: url(src/assets/background.jpg);
+}
+
+.card {
+    border: 2px solid black;
+    align-self: center;
+    margin-top: 25px;
+    margin-left: 160px;
+    box-shadow: 20px rgb(33, 238, 18);
+    background-color: lightgray;
+    max-width: 250px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.card .btn {
+    border: 1px solid black;
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: green;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    text-decoration-color: azure;
+    cursor: pointer;
+}
+
+.error {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.result{
+    background-color: lightgreen;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
